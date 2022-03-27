@@ -11,6 +11,7 @@
   inputs.src-colorize-master.ref   = "refs/heads/master";
   inputs.src-colorize-master.owner = "molnarmark";
   inputs.src-colorize-master.repo  = "colorize";
+  inputs.src-colorize-master.dir   = "";
   inputs.src-colorize-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
